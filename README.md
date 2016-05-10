@@ -30,6 +30,7 @@ app.use(ctx => {
         name: "myname"
     };
     ctx.body = ctx.session;
+    //ctx.session = null; //delete session
 });
 
 
